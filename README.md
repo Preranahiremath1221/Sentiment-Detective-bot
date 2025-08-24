@@ -77,43 +77,7 @@ chippy's-chatbot-creator/
 ├── package.json               # Dependencies and scripts
 ├── tsconfig.json              # TypeScript configuration
 └── vite.config.ts            # Vite build configuration
-```
 
-## 🎓 Learning Journey
-
-The application follows a structured 10-stage learning path:
-
-1. **Introduction to Chatbots** - Meet Riya and Chippy
-2. **Rule-Based Systems** - Learn about scripted responses
-3. **First Rule Creation** - Interactive quiz on basic rules
-4. **AI Concepts** - Introduction to artificial intelligence
-5. **AI Power Demonstration** - Quiz on AI capabilities
-6. **Emotion Sorting** - Categorize positive/negative emotions
-7. **Mood Matching** - Match scenes with emotions
-8. **Memory Game** - Sentence-emoji matching challenge
-9. **Boss Battle** - Final quiz against the Confusing Sentences Monster
-10. **Builder Access** - Unlock chatbot creation tools
-
-## 🏆 Badges System
-
-Users can earn 8 different badges:
-- **First Step** - Started the learning journey
-- **Rule Master** - Learned about rule-based systems
-- **AI Explorer** - Understood AI concepts
-- **Sorting Star** - Successfully categorized emotions
-- **Mood Master** - Matched moods to pictures
-- **Emotion Detective** - Completed the memory game
-- **Quiz Boss** - Defeated the final monster
-- **Joke Master** - Built a funny chatbot
-
-## 🎨 Design Philosophy
-
-The application is designed with children in mind:
-- **Colorful, engaging interface** with animations and interactive elements
-- **Progressive learning** that builds from simple to complex concepts
-- **Gamification** to maintain engagement and motivation
-- **Accessible language** appropriate for young learners
-- **Visual feedback** through badges and rewards
 
 
 
