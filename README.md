@@ -10,25 +10,6 @@ Chippy's Chatbot Creator is designed to make learning about technology and emoti
 - Build their own customizable chatbot
 - Earn badges and rewards through gamified learning
 
-## 🎯 Features
-
-### Educational Journey
-- **Interactive Learning Modules**: Step-by-step tutorials with characters Riya, Chippy, and Senti the Detective
-- **Rule-Based vs AI Chatbots**: Understand the difference between scripted responses and AI-powered conversations
-- **Emotional Intelligence**: Learn to recognize and categorize emotions through various games
-
-### Gamified Activities
-- **Emotion Sorting Gallery**: Drag and drop emotions into positive/negative categories
-- **Mood Picture Match**: Match scenes and pictures with appropriate emotions
-- **Memory Game**: Match sentences with corresponding emotion emojis
-- **Quiz Boss Battle**: Defeat the Confusing Sentences Monster by answering emotion-based questions
-- **Badge System**: Earn 8 different badges for completing learning milestones
-
-### Chatbot Builder
-- **Customizable Personality**: Choose from Friendly, Funny, or Serious chatbot personalities
-- **Rule Creation**: Define custom question-answer pairs for your chatbot
-- **Live Playground**: Test your chatbot in real-time and see it respond
-
 ## 🛠️ Technology Stack
 
 - **Frontend**: React 19.1.1 with TypeScript
@@ -134,23 +115,7 @@ The application is designed with children in mind:
 - **Accessible language** appropriate for young learners
 - **Visual feedback** through badges and rewards
 
-## 🤝 Contributing
 
-We welcome contributions! Please feel free to:
-- Report bugs and issues
-- Suggest new features or improvements
-- Submit pull requests for enhancements
-- Add new learning activities or games
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Designed for educational purposes to make technology concepts accessible to children
-- Inspired by the need for early STEM education and emotional intelligence development
-- Built with modern web technologies to provide a smooth, engaging user experience
 
 ## 🌐 Links
 - **Project Hosting**: [https://sentiment-detector.netlify.app/](https://sentiment-detector.netlify.app/)
