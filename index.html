@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chippy's Chatbot Creator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .perspective-1000 { perspective: 1000px; }
+    .transform-style-3d { transform-style: preserve-3d; }
+    .rotate-y-180 { transform: rotateY(180deg); }
+    .backface-hidden { backface-visibility: hidden; }
+    
+    @keyframes pop-in {
+      0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+      100% { transform: scale(1) rotate(0deg); opacity: 1; }
+    }
+    .animate-pop-in {
+      animation: pop-in 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+      20%, 40%, 60%, 80% { transform: translateX(5px); }
+    }
+    .animate-shake {
+      animation: shake 0.5s ease-in-out;
+    }
+    
+    @keyframes bounce-in {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    .animate-bounce-in-once {
+      animation: bounce-in 0.5s ease-in-out 1;
+    }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
